@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'Freight-Neo';
+  src: url('freight-neo-pro-bold.otf') format('truetype');
+}
+
+body {
+    font-family: 'Freight-Neo';
+    margin: 0;
+    color: #FFFFFF;
+    background-image: url(Assets/egilBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+::selection {
+  background: #757575;
+  color: #000000;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    background-color: #222222;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    padding: 4px 30px;
+}
+
+.navbar a, .navbar a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.overskrift {
+    padding: 60px;
+}
+
+.overskrift h1{
+    font-size: 52px;
+    margin: 0;
+    text-shadow: 3px 3px 3px black;
+}
+
+.overskrift h2{
+    font-size: 26px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.socialsiconinstagram {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialsiconyoutube {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials img {
+    width: 30px;
+    height: 30px;
+    opacity: 100%;
+}
+
+
