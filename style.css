@@ -284,3 +284,27 @@ html, body {
   transform: scale(1.02);
   transition: transform 0.2s ease;
 }
+
+.fotogallericontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.overskrift-foto {
+    text-align: center;
+    font-size: 30px;
+}
+
+.fotogalleri {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 5px;
+    grid-template-rows: masonry;
+    padding: 40px 200px;
+}
+
+.fotogalleri img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
