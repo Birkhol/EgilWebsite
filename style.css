@@ -171,6 +171,17 @@ html, body {
     align-items: center;
     gap: 35px;
     margin-top: 75px;
+    padding: 0 30px;
+}
+
+@media (max-width: 540px) {
+  .videofotocontainer {
+    flex-direction: column;
+  }
+}
+
+.egilvideo a, .egilfoto a {
+    border: 2px solid black;
 }
 
 .egilvideo img, .egilfoto img {
